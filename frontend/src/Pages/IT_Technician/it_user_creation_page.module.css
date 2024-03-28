@@ -1,5 +1,11 @@
 
+.backImg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(50%);
+}
+
 .container {
-    background: linear-gradient(135deg, #151517 0%, #19191b 70%, #513322 100%);
-    padding: 1%;
+    position: relative;
 }

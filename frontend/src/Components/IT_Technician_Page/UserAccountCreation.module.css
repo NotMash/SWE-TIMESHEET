@@ -1,58 +1,112 @@
 
 .card {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 100vh;
+}
+
+.formWrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;    
 }
 
 .userAccountForm{
+    display: flex;
+    justify-content: center;
     text-align: center;
     width: 100%;
 }
 
 .userAccountForm label, .userAccountForm h2 {
     font-family: "Poppins", serif;
-    color: #b4b29b;
+    color: #eaecf6a3;
+}
+
+.userAccountForm p {
+    font-family: "Poppins", serif;
+    font-size: 9pt;
+    color: #efb3b3a3;
+    margin: 3%;
 }
 
 .userAccountForm h2 {
     margin: 0;
-    color: #7f4f33;
+    color: #c4a378;
 }
 
 .main_img {
     width: 50%;
-    height: auto;
-    border-radius: 25px;
+    height: 100vh;
+}
+
+.animatedCharacter {
+    height: 50vh;
 }
 
 .input, .selectInput{
-    width: 50%;
+    width: 100%;
     height: 1.75pc;
-    padding-left: 2%;
-    background-color: #151515;
+    padding-left: 5%;
+    background-color: #eaecf6a3;
     border: solid 1pt #ffffff3c;
     border-radius: 10px;
-    color: #b4b29b;
+    color: #151515;
     margin: 0.5%;
 }
 
-.selectInput{
-    width: 52%;
-    height: 1.95pc;
-    border-radius: 0.25pc;
+.passwordInputWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 1.9pc;
+    padding-left: 4%;
+    background-color: #eaecf6a3;
+    border: solid 1pt #ffffff3c;
+    border-radius: 10px;
+    color: #151515;
+    margin: 0.5%;
 }
 
-input[type=submit]{
-    width: 52%;
-    margin-top: 5%;
+.passwordInput {
+    background-color: #07081900;
+    border: none;
+}
+
+.passwordInput:focus, .input:focus, .selectInput:focus {
+    outline: none;
+}
+
+.eyeIcon {
+    height: 1.2pc;
+    margin-right: 5%;
     cursor: pointer;
-    background: linear-gradient(to right, #2f1d13 0%, #151515 50%, #2f1d13 100%);
-    color: #9F6442;
+}
+
+.selectInput{
+    width: 100%;
+    height: 1.95pc;
+    border-radius: 0.25pc;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #151515;
+  }
+
+input[type=submit]{
+    width: 100%;
+    cursor: pointer;
+    background: linear-gradient(to right, #c4a378 0%, #eaecf6a3 50%, #c4a378 100%);
+    color: #070819;
     text-transform: uppercase;
     font-family: "Poppins", serif;
     letter-spacing: 2px;
-    border: solid 1pt #9F6442;
+    border: solid 1pt #070819;
     border-radius: 0.5pc;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 

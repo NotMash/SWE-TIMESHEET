@@ -10,6 +10,7 @@ body {
     letter-spacing: 5px;
     font-family: "Poppins", sans-serif;
     font-size: 22pt;
+    text-align: center;
     margin: 0;
     padding: 2%;
     box-shadow: 0 4px 4px 0px #06192f;
@@ -25,7 +26,6 @@ body {
     justify-items: center;
     gap: 50px;
     padding: 5%;
-    background: rgb(0, 75, 121);
-    background: linear-gradient(172deg, rgba(0, 75, 121, 1) 0%, rgba(0, 19, 42, 1) 100%);
+    background-image: url("../../../public/main.jpeg");
     z-index: 1;
 }

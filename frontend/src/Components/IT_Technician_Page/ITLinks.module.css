@@ -1,11 +1,19 @@
 
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
 .linkContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 100px;
-    background-color: #e0dddd;
+    background-color: #e0dddde7;
     border-radius: 15px;
     border: solid 1pt #c3c2c2;
 }
